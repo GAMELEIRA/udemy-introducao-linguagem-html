@@ -1,0 +1,59 @@
+<!--
+  AUTOR: GABRIEL GAMELEIRA DOS SANTOS
+  DATA: 26/08/2020
+  HORA: 02:03
+  FINALIDADE DE PROGRAMA: APRESENTAR A FORMATACAO PARA TABELAS
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--PARA CRIACAO DA TABELA-->
+    <table>
+        <!--DEFINE A LEGENDA DA TABELA-->
+        <caption>SOBRE O GAMELEIRA</caption>
+        <!--PARA INDICACAO DO CABECALHO DA TABELA-->
+        <thead>
+            <!--PARA CRIACAO DA LINHA DA TABELA-->
+            <tr>
+                <!--PARA CRIACAO DE CELULAS DO CABECALHO -->
+                <th>Nome</th>
+
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <!--PARA INDICACAO DO CORPO DA TABELA-->
+        <tbody>
+            <tr>
+                <!--PARA CRIACAO DE CELULAS DO CORPO DA TABELA-->
+                <td>Gameleira</td>
+                <td>Inestimável</td>
+            </tr>
+        </tbody>
+        <!--PARA INDICACAO DO RODAPE DA TABELA-->
+        <tfoot>
+            <tr>
+                <td>O cara é monstro!</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
